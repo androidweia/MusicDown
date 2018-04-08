@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <!--  android:checkableBehavior 属性接受以下任一选项：single 组中只有一个项目可以选中（单选按钮）
+        all 所有项目均可选中（复选框）
+        none  所有项目均无法选中  -->
+
+    <item android:title="API163"
+        android:id="@+id/navigation_163"
+        android:checked="true" />
+    <item android:title="APIQQ"
+        android:id="@+id/navigation_qq" />
+</group>
+</menu>
